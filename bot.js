@@ -7,7 +7,7 @@ client.on("ready", () => {
 let channel =     client.channels.get("506776770700247040")
 setInterval(function() {
 channel.send(`Aleto , Aleto`);
-}, 30)
+}, 600)
 })
 
 client.login(process.env.BOT_TOKEN);
